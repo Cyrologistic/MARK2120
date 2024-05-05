@@ -11,4 +11,4 @@ def serve_static(path):
     return send_from_directory('static', path)
 
 if __name__ == "__main__":
-    app.run()
+    app.run('0.0.0.0', port=5000)
