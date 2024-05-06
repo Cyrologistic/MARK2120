@@ -91,41 +91,78 @@
 				</script>
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special" style="display: none; transition: opacity 0.5s;">
-						<div class="product">
-							<div class="header">
-							  <div class="back"></div>
+						<!-- Moisturizer -->
+						<div class="carousel">
+							<button class="carousel__button carousel__button--left">&lt;</button>
+							<div class="carousel__container">
+							  <div class="carousel__track">
+								<!-- Add your product cards here -->
+								<<div class="product-card">
+									<!-- Option, a badge on the top left hand corner -->
+									<!-- <div class="badge">Hot</div> -->
+									<div class="product-tumb">
+										<img src="../static/images/Moisturizer_no_bg.png" alt="">
+									</div>
+									<div class="product-details">
+										<!-- Optional, product category-->
+										<!-- <span class="product-catagory">Moisturizer</span> -->
+										<h4><a href="">Moisturizer</a></h4>
+										<p>Description Here</p>
+										<div class="product-bottom-details">
+											<div class="product-price"><small>$69.69</small>$6969.69</div>
+											<div class="product-links">
+												<a href=""><i class="fa fa-heart"></i></a>
+												<a href=""><i class="fa fa-shopping-cart"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Facial Cleanser-->
+								<div class="product-card">
+									<!-- Option, a badge on the top left hand corner -->
+									<!-- <div class="badge">Hot</div> -->
+									<div class="product-tumb">
+										<img src="../static/images/facial_cleanser_no_bg.png" alt="">
+									</div>
+									<div class="product-details">
+										<!-- Optional, product category-->
+										<!-- <span class="product-catagory">Moisturizer</span> -->
+										<h4><a href="">Facial Cleanser</a></h4>
+										<p>Description Here</p>
+										<div class="product-bottom-details">
+											<div class="product-price"><small>$69.69</small>$6969.69</div>
+											<div class="product-links">
+												<a href=""><i class="fa fa-heart"></i></a>
+												<a href=""><i class="fa fa-shopping-cart"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Serum -->
+								<div class="product-card">
+									<!-- Option, a badge on the top left hand corner -->
+									<!-- <div class="badge">Hot</div> -->
+									<div class="product-tumb">
+										<img src="../static/images/facial_cleanser_no_bg.png" alt="">
+									</div>
+									<div class="product-details">
+										<!-- Optional, product category-->
+										<!-- <span class="product-catagory">Moisturizer</span> -->
+										<h4><a href="">Serum</a></h4>
+										<p>Description Here</p>
+										<div class="product-bottom-details">
+											<div class="product-price"><small>$69.69</small>$6969.69</div>
+											<div class="product-links">
+												<a href=""><i class="fa fa-heart"></i></a>
+												<a href=""><i class="fa fa-shopping-cart"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							  </div>
 							</div>
-							<div class="main">
-							  <div class="left">
-								<h2>Moisturizer</h2>
-								<h3>$320.00</h3>
-								<img src="../static/images/product_1.jpeg" alt="" />
-							  </div>
-							  <div class="right">
-								<p>Niacinamide (3-5%): Helps regulate oil production, reduce the appearance of large pores, and improve skin texture <br/>
-									Centella Asiatica Extract (1-2%): Soothes and calms irritated skin, reducing redness. <br/>
-									Use a lightweight, oil-free, and non-comedogenic formula to prevent clogging pores and worsening sebaceous filaments.</p>
-								<p>In stock</p>
-								<p>
-								  <span class="fa fa-star yellow"></span>
-								  <span class="fa fa-star yellow"></span>
-								  <span class="fa fa-star yellow"></span>
-								  <span class="fa fa-star yellow"></span>
-								  <span class="fa fa-star"></span>
-								  <span>(4.67 - 172 reviews)</span>
-								</p>
-								<p class="quantity">QUANTITY <span class="fa fa-angle-left angle"></span><span id="qt">3</span><span class="fa fa-angle-right angle"></span></p>
-							  </div>
-							</div>
-							<div class="footer">
-							  <div class="left">
-								<p id="price">$960.00</p>
-							  </div>
-							  <div class="right">
-								<p>Add to Cart</p>
-							  </div>
-							</div>
-						  </div>
+							<button class="carousel__button carousel__button--right">&gt;</button>
+						</div>
 					</section>
 	
 				<!-- CTA -->
@@ -166,6 +203,7 @@
 			<script src="../static/assets/js/breakpoints.min.js"></script>
 			<script src="../static/assets/js/util.js"></script>
 			<script src="../static/assets/js/main.js"></script>
+			<script src="../static/assets/js/carousel.js"></script>
 			<script>
 				// Change The Picture and Associated Element Color when Color Options Are Clicked.
 				$(".product-colors span").click(function() {

@@ -1,0 +1,38 @@
+  .carousel {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .carousel__button {
+    background-color: #f0f0f0;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel__container {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  
+  .carousel__track {
+    display: flex;
+    transition: transform 0.3s;
+  }
+  
+  .product-card {
+    flex-shrink: 0;
+    width: calc(100% / 3);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+  }
