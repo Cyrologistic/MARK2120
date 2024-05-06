@@ -4157,14 +4157,3 @@ input, select, textarea {
 	grid-gap: 20px; /* Set the gap between grid items */
 	transition: transform 1s;
   }
-
-  /* Media Query for Mobile Devices */
-@media (max-width: 767px) {
-	.product-card {
-	  min-width: 100%;
-	}
-  
-	.carousel__container {
-	  width: 100%;
-	}
-  }
