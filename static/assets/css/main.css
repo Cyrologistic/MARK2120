@@ -3998,28 +3998,31 @@ input, select, textarea {
 /* Additional CSS for Product Cards */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-*
-{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 .product-card {
-    font-family: 'Roboto', sans-serif;
-	justify-content: center;
-    width: auto;
-    min-width: 380px; /* Set the minimum width of the card */
-    max-width: 600px; /* Set the maximum width of the card */
-    position: relative;
-    box-shadow: 0 2px 7px #dfdfdf;
-    margin: 10px auto;
-    background: #fafafa;
-    padding: 20px; /* Add some padding to prevent the text from touching the card edges */
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  width: auto;
+  min-width: 300px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 10px auto;
+  background: #fafafa;
+  padding: 20px;
 }
+
 .product-card a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 
 .badge {
     position: absolute;
@@ -4153,4 +4156,15 @@ input, select, textarea {
 	grid-auto-columns: 1fr; /* Set the width of each grid item to be equal */
 	grid-gap: 20px; /* Set the gap between grid items */
 	transition: transform 1s;
+  }
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+	.product-card {
+	  min-width: 100%;
+	}
+  
+	.carousel__container {
+	  width: 100%;
+	}
   }
