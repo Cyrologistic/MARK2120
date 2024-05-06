@@ -4007,12 +4007,13 @@ input, select, textarea {
 }
 .product-card {
     font-family: 'Roboto', sans-serif;
+	justify-content: center;
     width: auto;
     min-width: 380px; /* Set the minimum width of the card */
     max-width: 600px; /* Set the maximum width of the card */
     position: relative;
     box-shadow: 0 2px 7px #dfdfdf;
-    margin: 50px auto;
+    margin: 10px auto;
     background: #fafafa;
     padding: 20px; /* Add some padding to prevent the text from touching the card edges */
 }
