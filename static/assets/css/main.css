@@ -4099,7 +4099,7 @@ input, select, textarea {
 
 .product-price small {
     font-size: 80%;
-    font-weight: 400;
+    font-weight: bold;
     display: inline-block;
     margin-right: 5px;
 }
